@@ -86,27 +86,27 @@ get '/restaurants'
 
 get '/restaurants/new'
 
-        Return an HTML form for creating a new restaurant.
+        Returns an HTML form for creating a new restaurant.
 
 post '/restaurants'
 
-        Create a new restaurant.
+        Creates a new restaurant.
 
 get '/restaurants/:id/edit'
 
-        Return an HTML form for editing a restaurant.
+        Returns an HTML form for editing a restaurant.
 
 put '/restaurants/:id'
 
-        Update a specific restaurant.
+        Updates a specific restaurant.
 
 get '/restaurants/:id'
 
-        Display a specific restaurant.
+        Displays a specific restaurant.
 
 delete '/restaurants/:id'
 
-        Delete a specific restaurant.
+        Deletes a specific restaurant.
 
 18. What's a migration?
 
